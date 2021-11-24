@@ -7,8 +7,7 @@ def pop():
     if len(stack) == 0:
         return -1
     else:
-        print
-        return pop()
+        return stack.pop()
 
 def size():
     return len(stack)
@@ -26,11 +25,11 @@ def top():
         return stack[-1]
 
 
-n = int(input())
+n = int(sys.stdin.readline().strip())
 stack = []
 
 for i in range(n):
-    cmd = sys.stdin.readline().split()
+    cmd = sys.stdin.readline().rstrip().split()
 
     order = cmd[0]
 
