@@ -16,4 +16,3 @@ for i in range(num):
         print('YES')
     elif b > 0:
         print('NO')
-
