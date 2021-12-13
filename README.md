@@ -7,5 +7,8 @@
     > int 입력 받아 A + B 출력
 
 ## 자료구조
-1. [stack](https://github.com/jmsmg/backjoon/tree/main/1.자료구조/stack)
-    > stack 구조 구현문제
+1. [stack](https://github.com/jmsmg/backjoon/tree/main/2.자료구조/stack)
+
+2. [queue](https://github.com/jmsmg/backjoon/tree/main/2.자료구조/queue)
+
+3. [deque](https://github.com/jmsmg/backjoon/tree/main/2.자료구조/deque)
