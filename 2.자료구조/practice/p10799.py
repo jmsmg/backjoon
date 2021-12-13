@@ -1,18 +1,16 @@
-import sys
-a = list(sys.stdin.readline())
+a = list(input())
 
-i = 0
-j = 0
+stack = []
 count = 0
 
-while i < len(a):
+for i in range(len(a)):
     if a[i] == '(':
-        if a[i-1] == '(':
-            j += 1
+        stack.append('(')
     else:
-        if a[i] == ')':
-            if a[i-1] == ')':
-                j -= 1
-            count += j
-    i += 1
+        if a[i-1] == '(':
+            stack.pop()
+            count += len(stack)
+        else:
+            stack.pop()
+            count += 1
 print(count)
