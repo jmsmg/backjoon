@@ -28,6 +28,7 @@ void	makePermutation(int n, int r, int depth)
 }
 int	main()
 {
-	for (int i = 1; i < 4; i++) v.push_back(i);
+	for (int i = 1; i < 4; i++)
+		v.push_back(i);
 	makePermutation(3, 3, 0);
 }
